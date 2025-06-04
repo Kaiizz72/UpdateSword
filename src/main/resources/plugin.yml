@@ -1,0 +1,14 @@
+name: UpgradeSharpness
+version: 1.0
+main: me.cuongaz.upgradesharpness.UpgradeSharpnessGUI
+api-version: 1.20
+commands:
+  nangcap:
+    description: Mở GUI nâng cấp kiếm
+    usage: /<command>
+
+
+permissions:
+  upgradesharpness.use:
+    description: Cho phép sử dụng lệnh /nangcap để nâng cấp kiếm
+    default: true
